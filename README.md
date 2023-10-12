@@ -1,6 +1,6 @@
 Hello, 
 
-The project I designed, using the Domain-Driven Design (DDD) architecture consists of several layers: the API layer, the application layer, the domain layer, and the persistence layer. The Domain layer is where entities reside, and the Persistence layer contains my migration files and repositories.
+The project I designed, using the Domain-Driven Design (DDD) architecture consists of several layers: the API layer, the application layer, the domain layer, and the persistence layer. The Domain layer is where entities reside, and the Persistence layer contains my migration files and repositories. In addition, I also applied Mediator and CQRS pattern techniques in this project.
 
 Following this, in the application layer, business operations have been implemented. As for the dependency injection structure, I used a Service interface structure for business components, and a repository infrastructure for operations within the context.
 
